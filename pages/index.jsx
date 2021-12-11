@@ -6,8 +6,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Next.js + TailwindCSS Starter</title>
-        <meta name="description" content="A Next.js + TailwindCSS starter" />
+        <title>Next.js + TailwindCSS + NextAuth + Prisma Starter</title>
+        <meta
+          name="description"
+          content="A Next.js + TailwindCSS + NextAuth + Prisma starter"
+        />
       </Head>
       <main
         className={
@@ -15,7 +18,7 @@ export default function Home() {
         }
       >
         <h1 className={"text-4xl font-bold text-indigo-800 hover:italic"}>
-          A Next.js + TailwindCSS Starter
+          A Next.js + TailwindCSS + NextAuth + Prisma Starter
         </h1>
         {session ? (
           <>
