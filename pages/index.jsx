@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main
         className={
-          "flex flex-col items-center justify-center w-screen h-screen"
+          "flex h-screen w-screen flex-col items-center justify-center"
         }
       >
         <h1 className={"text-4xl font-bold text-indigo-800 hover:italic"}>
