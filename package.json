@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "remove-yarn": "rm yarn.lock && rm -r node_modules && pnpm install"
+    "remove-yarn": "rm yarn.lock && rm -r node_modules && pnpm install",
+    "secret": "openssl rand -base64 32"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^0.5.2-next.19",
